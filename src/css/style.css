@@ -2,8 +2,8 @@
 
 
 :root {
-    --primary-color: #22254b;
-    --secondary-color: #373b69;
+    --primary-color: #0c97be;
+    --secondary-color: #0b75a79c;
 }
 
 * {
@@ -28,13 +28,13 @@ header {
     border: 2px solid var(--primary-color);
     border-radius: 50px;
     font-family: inherit;
-    font-size: 1rem;
+    font-size: 20px;
     padding: 0.5rem 1rem;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 .search:placeholder {
-    color: #7378c5;
+    color: #ffffff;
 }
 
 .search:focus {
@@ -51,7 +51,7 @@ main {
     width: 300px;
     margin: 1rem;
     background-color: var(--secondary-color);
-    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.3);
     position: relative;
     overflow: hidden;
     border-radius: 3px;
