@@ -28,7 +28,7 @@ function showMovies(movies) {
 
     movieEl.innerHTML = `
 
-        <img src="{$IMG_PATH + poster_path}" alt="${title}">
+        <img src="${IMG_PATH + poster_path}" alt="${title}">
         <div class="movie-info">
           <h3>${title}</h3>
           <span class="${getClassByRate(vote_average)}">${vote_average}</span>
